@@ -120,3 +120,39 @@ nav a {
   margin: 0 auto;
   padding-top: 10px;
 }
+
+/* Solid divider */
+hr.solid {
+  border-top: 3px solid #000;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Staff Section */
+
+#staff {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#staff h2 {
+  font-family: 'Voltaire', sans-serif;
+  font-size: 32px;
+}
+
+.staffContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.staffBox {
+  margin: 30px 50px;
+  width: 200px;
+}
+
+.staffImage {
+  max-width: 100%;
+  height: 275px;
+}
+
+/* Footer */
