@@ -9,6 +9,9 @@
 
 header {
   height: 50px;
+}
+
+#head {
   border-bottom: 2px solid black;
 }
 
@@ -31,6 +34,10 @@ nav li:hover {
 
 nav li:visited {
   color: black;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 /* Banner Stylings */
@@ -73,4 +80,43 @@ nav li:visited {
 .bannerTitle h2 {
   font-family: 'Voltaire', sans-serif;
   padding-bottom: 10px;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+  margin-top: 50px;
+}
+
+#portfolio h2 {
+  padding-bottom: 10px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 28px;
+}
+
+.portfolioContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolioBox {
+  margin: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.portfolioBox img {
+  height: 80%;
+  width: 100%;
+}
+
+.portfolioBox h3 {
+  font-family: 'Voltaire', sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
 }
