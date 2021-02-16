@@ -5,6 +5,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Header Section */
+
 header {
   height: 50px;
   border-bottom: 2px solid black;
@@ -31,15 +33,44 @@ nav li:visited {
   color: black;
 }
 
+/* Banner Stylings */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 630px;
+  background-image: url('./images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bannerTitle {
+  background-color: white;
+  width: 100%;
+}
+
+.bannerTitle h2 {
+  text-transform: capitalize;
+}
+
+.bannerH1Container {
   display: flex;
   justify-content: center;
 }
 
-.bannerTitle img {
-  width: 40px;
+.logo {
+  width: 100px;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
-.bannerTitle h1 {
+.bannerH1Container h1 {
   font-family: 'Kaushan Script', serif;
+  font-size: 4rem;
+}
+
+.bannerTitle h2 {
+  font-family: 'Voltaire', sans-serif;
+  padding-bottom: 10px;
 }
