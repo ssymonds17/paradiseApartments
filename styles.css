@@ -7,12 +7,13 @@
 
 /* Header Section */
 
-header {
-  height: 50px;
-}
-
 #head {
+  height: 50px;
   border-bottom: 2px solid black;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
 }
 
 nav ul {
@@ -40,7 +41,25 @@ nav a {
   text-decoration: none;
 }
 
-/* Banner Stylings */
+@media only screen and (max-width: 670px) {
+  #head {
+    display: none;
+  }
+}
+
+/* Main Section */
+
+main {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 670px) {
+  main {
+    margin-top: 0;
+  }
+}
+
+/* Banner Section */
 
 .banner {
   display: flex;
@@ -82,6 +101,33 @@ nav a {
   padding-bottom: 10px;
 }
 
+.bannerTitleSmall {
+  display: none;
+}
+
+@media only screen and (max-width: 670px) {
+  .bannerTitle {
+    display: none;
+  }
+
+  .bannerTitleSmall {
+    display: block;
+    width: 100%;
+    background-color: white;
+  }
+
+  .bannerTitleSmall h1 {
+    font-family: 'Kaushan Script', serif;
+    font-size: 4rem;
+  }
+
+  .bannerTitleSmall h2 {
+    text-transform: capitalize;
+    font-family: 'Voltaire', sans-serif;
+    padding-bottom: 10px;
+  }
+}
+
 /* Portfolio Section */
 
 #portfolio {
@@ -89,6 +135,7 @@ nav a {
 }
 
 #portfolio h2 {
+  padding-top: 50px;
   padding-bottom: 10px;
   font-family: 'Voltaire', sans-serif;
   font-size: 28px;
