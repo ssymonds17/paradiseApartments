@@ -143,6 +143,7 @@ hr.solid {
 .staffContainer {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .staffBox {
@@ -155,4 +156,27 @@ hr.solid {
   height: 275px;
 }
 
+/* Contact Section */
+
+.contact h2 {
+  font-family: 'Kaushan Script', serif;
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.contact h5 {
+  padding-bottom: 15px;
+}
+
 /* Footer */
+
+footer {
+  display: flex;
+  background-color: black;
+  justify-content: left;
+  color: white;
+}
+
+footer p {
+  padding: 15px;
+}
